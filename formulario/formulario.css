@@ -1,0 +1,121 @@
+body {
+    background-color:#CCC;
+    font-family:Arial;
+    margin:0;
+}
+h1 {
+    color:red;
+    text-align:center;
+}
+
+.form-c {
+    margin-left:10px;
+    margin-right:10px;
+}
+.fieldset-c1 {
+    display:flex;
+    justify-content:center;
+}
+.fieldset-c2 {
+    display:flex;
+    justify-content:center;
+}
+.fieldset1 {
+    background-color:rgb(49, 179, 255);
+    color:#FFF;   
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    border:2px solid red;
+    border-radius:10px;
+}
+.fieldset2 {
+    background-color:rgb(49, 179, 255);
+    color:#FFF;   
+    margin-bottom:20px;
+    margin-left:20px;
+    margin-right:20px;
+    border:2px solid red;
+    border-radius:10px;
+}
+.legend1 {
+    background-color:red;
+    color:#FFF;
+    text-align:center;
+    padding:5px;
+    border-radius:7px;
+}
+.personal {
+    display:flex;
+    justify-content:center;
+}
+.personal2 {
+    display:flex;
+    justify-content:space-around;
+}
+select {
+    border:2px solid red;
+    border-radius:7px;
+    margin:5px;
+}
+
+label {
+    display: block;
+    text-align: center;
+}
+input {
+    border:2px solid red;
+    border-radius:7px;
+    margin:5px;
+}
+
+.bottom {
+    display:flex;
+    justify-content:center;
+    flex-direction:column;    
+}
+.terms1-c {
+    display:flex;
+    justify-content:center;
+}
+.submit1-c {
+    display:flex;
+    justify-content:center;
+}
+
+.terms1 {
+    background-color:rgb(49, 179, 255);
+    color:#FFF;
+    padding:10px 20px;
+    border:2px solid red;
+    border-radius:10px;    
+}
+.submit1 {
+    margin-top:10px;
+    background-color:rgb(49, 179, 255);
+    color:#FFF;
+    font-size:15px;
+    padding:10px 20px;
+    border:2px solid red;
+    border-radius:10px;  
+}
+footer {
+    text-align:center;
+    margin-top:20px;
+    margin-bottom:10px;
+}
+
+@media (max-width:500px) {
+    h1 {
+        font-size:25px;
+    }
+    .personal {
+        flex-direction:column;
+    }
+    .personal2 {
+        flex-direction:column;
+    }
+}
+
+
+
