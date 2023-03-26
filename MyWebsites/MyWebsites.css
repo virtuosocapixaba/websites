@@ -51,8 +51,6 @@ main {
     display:grid;
     grid-template-columns: 1fr 1fr;
     grid-gap:10px 10px;
-    justify-content: center;
-    align-items: center;
 }
 .website {
     border: 2px solid rgb(100, 200, 255);
@@ -62,6 +60,7 @@ main {
 .website img {
     max-width:100%;
     height:100%;
+    margin:auto;
 }
 
 footer {
