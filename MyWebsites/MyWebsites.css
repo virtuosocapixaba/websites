@@ -37,6 +37,22 @@ h3 {
     margin-bottom:0;
 }
 
+section {
+    text-align:center;
+    font-weight:bold;
+    max-width:1140px;
+    background-color: rgb(32, 36, 122);
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    padding:10px 10px 0px 10px;
+    border: 2px solid rgb(100, 200, 255);
+}
+section p {
+    margin:0;
+    margin-bottom:10px;
+}
+
 main {
     max-width:1140px;
     background-color: rgb(32, 36, 122);
