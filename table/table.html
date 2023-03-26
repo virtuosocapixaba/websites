@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Table</title>
+        <meta type="description" content="Tabela" />
+
+        <meta property="og:url" content="url goes here" />
+        <meta property="og:type" content="product" />
+        <meta property="og:title" content="Tabela" />
+        <meta property="og:description" content="Tabela estilo zebra com alguns efeitos" />
+        <meta property="og:image" content="https://raw.githubusercontent.com/virtuosocapixaba/websites/master/table/table.jpg" />
+        <meta property="og:locale" content="pt_BR" />
+
+        <style>
+            * {
+                font-family:Arial;
+                box-sizing: border-box;
+            }
+            h1 {
+                border:2px solid rgb(1, 1, 121);
+                border-radius: 10px;
+                background-color: blue;
+                margin-left:auto;
+                margin-right:auto; 
+                padding:10px;
+                text-align: center;
+                color:white;               
+            }
+            table {
+                border:2px solid rgb(1, 1, 121);
+                border-collapse: collapse;
+                width:100%;
+                margin-left:auto;
+                margin-right:auto;                
+            }
+            th {
+                border:2px solid rgb(1, 1, 121);
+                background-color: blue;
+                color:white;
+                position:sticky;
+                top:0;           
+            }
+            td {
+                border:1px solid rgb(1, 1, 121);
+                text-align:center;
+            }
+            tr:nth-child(odd) {
+                background-color:rgb(0, 221, 255);
+            }
+            tr:hover {
+                background-color:yellow;
+            }            
+            
+        </style>
+    </head>
+    <body>
+
+        <h1>Lista de clientes</h1>
+        
+        <table>
+            <tr>
+                <th>Nome</th>
+                <th>Idade</th>
+                <th>Profissão</th>
+                <th>Cidade</th>
+                <th>Bairro</th>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>50</td>
+                <td>Pedreiro</td>
+                <td>Serra</td>
+                <td>Feu Rosa</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>40</td>
+                <td>Cabelereira</td>
+                <td>Cariacica</td>
+                <td>Campo Grande</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>35</td>
+                <td>Motorista</td>
+                <td>Viana</td>
+                <td>Universal</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>42</td>
+                <td>Contador</td>
+                <td>Vitória</td>
+                <td>Centro</td>
+            </tr>
+            <tr>
+                <td>Rose</td>
+                <td>29</td>
+                <td>Médica</td>
+                <td>Vila Velha</td>
+                <td>Praia da Costa</td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>20</td>
+                <td>Músico</td>
+                <td>Vila Velha</td>
+                <td>Itapuã</td>
+            </tr>
+            <tr>
+                <td>Valéria</td>
+                <td>25</td>
+                <td>Recepcionista</td>
+                <td>Serra</td>
+                <td>Carapina</td>
+            </tr>
+            <tr>
+                <td>Júlio</td>
+                <td>32</td>
+                <td>Embalador</td>
+                <td>Cariacica</td>
+                <td>Itacibá</td>
+            </tr>
+            <tr>
+                <td>Bruno</td>
+                <td>38</td>
+                <td>Advogado</td>
+                <td>Vitória</td>
+                <td>Mata da Praia</td>
+            </tr>
+            <tr>
+                <td>Sofia</td>
+                <td>31</td>
+                <td>Empresária</td>
+                <td>Vitória</td>
+                <td>Praia do Canto</td>
+            </tr>
+            <tr>
+                <td>João</td>
+                <td>50</td>
+                <td>Pedreiro</td>
+                <td>Serra</td>
+                <td>Feu Rosa</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>40</td>
+                <td>Cabelereira</td>
+                <td>Cariacica</td>
+                <td>Campo Grande</td>
+            </tr>
+            <tr>
+                <td>José</td>
+                <td>35</td>
+                <td>Motorista</td>
+                <td>Viana</td>
+                <td>Universal</td>
+            </tr>
+            <tr>
+                <td>Carlos</td>
+                <td>42</td>
+                <td>Contador</td>
+                <td>Vitória</td>
+                <td>Centro</td>
+            </tr>
+            <tr>
+                <td>Rose</td>
+                <td>29</td>
+                <td>Médica</td>
+                <td>Vila Velha</td>
+                <td>Praia da Costa</td>
+            </tr>
+            <tr>
+                <td>Roberto</td>
+                <td>20</td>
+                <td>Músico</td>
+                <td>Vila Velha</td>
+                <td>Itapuã</td>
+            </tr>
+            <tr>
+                <td>Valéria</td>
+                <td>25</td>
+                <td>Recepcionista</td>
+                <td>Serra</td>
+                <td>Carapina</td>
+            </tr>
+            <tr>
+                <td>Júlio</td>
+                <td>32</td>
+                <td>Embalador</td>
+                <td>Cariacica</td>
+                <td>Itacibá</td>
+            </tr>
+            <tr>
+                <td>Bruno</td>
+                <td>38</td>
+                <td>Advogado</td>
+                <td>Vitória</td>
+                <td>Mata da Praia</td>
+            </tr>
+            <tr>
+                <td>Sofia</td>
+                <td>31</td>
+                <td>Empresária</td>
+                <td>Vitória</td>
+                <td>Praia do Canto</td>
+            </tr>
+        </table>
+
+    </body>
+</html>
