@@ -69,6 +69,7 @@ main {
     grid-gap:10px 10px;
 }
 .website {
+    position:relative;
     border: 2px solid rgb(100, 200, 255);
     justify-content: center;
     align-items: center;
@@ -77,6 +78,42 @@ main {
     max-width:100%;
     height:100%;
     margin:auto;
+}
+.overlay {
+    position:absolute;
+    background-color:black;
+    color:rgb(100, 200, 255);
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    opacity:0.0;
+}
+.overlay-text {
+    display:inline-block;
+    width:100%;
+    height:100%;
+    text-align:center;
+    justify-content: center;
+    align-items: center;
+}
+a.overlay-link {
+    display:inline-block;
+    width:100%;
+    height:100%;
+    text-decoration: none;
+    font-size:25px;
+    font-weight:bold;
+    padding-top:50px; 
+    color:yellow;
+}
+.website:hover {
+    border: 2px solid yellow;
+}
+.website:hover .overlay {
+    width:100%;
+    height:100%;
+    transition: opacity 0.3s linear, border 0.3s linear; 
+    opacity:0.8;
 }
 
 footer {
@@ -94,6 +131,33 @@ footer a {
     text-align:center;
     text-decoration:none;
     color:rgb(100, 200, 255);
+}
+footer a:hover {
+    text-decoration: underline;
+}
+.icon-container {
+    display:flex;
+    justify-content:center;
+}
+.contact-links {
+    display:flex;    
+}
+.contact-icons {
+    width:50px;
+    height:50px;
+    margin:10px 5px;
+    border:2px solid rgb(100, 200, 255);
+    border-radius:50%;    
+}
+.contact-icons img {
+    width:100%;
+    height:100%;
+}
+.contact-icons:hover {
+    transition: width 0.3s linear, height 0.3s linear, border 0.3s linear;
+    width:60px;
+    height:60px;
+    border:2px solid yellow;
 }
 
 @media (min-width:601px) and (max-width:800px) {
@@ -136,5 +200,16 @@ footer a {
     }
     footer {
         padding:10px;
-    } 
+    }
+    .contact-icons {
+        width:40px;
+        height:40px;
+        margin:10px 5px;
+        border:2px solid rgb(100, 200, 255);
+        border-radius:50%;    
+    }
+    .contact-icons:hover {
+        width:42px;
+        height:42px;
+    }
 }
