@@ -171,6 +171,9 @@ footer {
     padding:10px;
     max-width:1400px;
 }
+footer a {
+    color:red;
+}
 
 @media (min-width:371px) and (max-width:600px) {
     body {
