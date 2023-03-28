@@ -97,14 +97,15 @@ main {
     align-items: center;
 }
 a.overlay-link {
-    display:inline-block;
+    display:flex;
     width:100%;
     height:100%;
     text-decoration: none;
     font-size:25px;
     font-weight:bold;
-    padding-top:50px; 
     color:yellow;
+    justify-content: center;
+    align-items: center;
 }
 .website:hover {
     border: 2px solid yellow;
@@ -119,6 +120,7 @@ a.overlay-link {
 footer {
     text-align:center;
     max-width:1140px;
+    max-height:132px;
     background-color: rgb(32, 36, 122);
     margin-top:10px;
     margin-left:auto;
@@ -140,7 +142,7 @@ footer a:hover {
     justify-content:center;
 }
 .contact-links {
-    display:flex;    
+    display:flex;; 
 }
 .contact-icons {
     width:50px;
@@ -176,6 +178,7 @@ footer a:hover {
         margin-top:10px;
     }
     footer {
+        max-height:112px;
         padding:10px;
     }   
 }
@@ -199,6 +202,7 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
     footer {
+        max-height:102px;
         padding:10px;
     }
     .contact-icons {
@@ -209,7 +213,7 @@ footer a:hover {
         border-radius:50%;    
     }
     .contact-icons:hover {
-        width:42px;
-        height:42px;
+        width:43px;
+        height:43px;
     }
 }
