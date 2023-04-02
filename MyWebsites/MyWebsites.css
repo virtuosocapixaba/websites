@@ -202,13 +202,13 @@ footer a:hover {
         grid-template-columns: 1fr;
     }
     footer {
-        max-height:102px;
+        max-height:94px;
         padding:10px;
     }
     .contact-icons {
         width:40px;
         height:40px;
-        margin:10px 5px;
+        margin:10px 2px 2px 2px;
         border:2px solid rgb(100, 200, 255);
         border-radius:50%;    
     }
