@@ -37,12 +37,12 @@ header {
 
 /* MENU MOBILE */
 
-.menu-mobile { /* media queries!!! */
+.menu-mobile { 
     position:absolute;
     display:none;
     top:0;
     left:5px;
-    height:25px;
+    height:30px;
 }
 .menu-mobile img {
     height:100%;
@@ -52,8 +52,8 @@ header {
 .menu-mobile-ex {
     position:absolute;
     display:none;
-    top:25px;
-    left:-5px;
+    top:30px;
+    left:-7px;
 }
 .menu-mobile a {
     display:block;
@@ -64,7 +64,7 @@ header {
     text-decoration: none;
     text-align:center;
     color: var(--dark-green);
-    font-size:13px;
+    font-size:20px;
     font-weight: bold;
 }
 
@@ -73,8 +73,8 @@ header {
 .flag {
     position:absolute;
     top:0;
-    right:40px;
-    height:20px;
+    right:60px;
+    height:30px;
 }
 .flag img {
     height:100%;
@@ -84,9 +84,9 @@ header {
 .light-mode {
     position:absolute;
     top:0;
-    right:20px;
-    width:20px;
-    height:20px;
+    right:30px;
+    width:30px;
+    height:30px;
 }
 .light-mode img {
     width:100%;
@@ -97,8 +97,8 @@ header {
     position:absolute;
     top:0;
     right:0;
-    width:20px;
-    height:20px;
+    width:30px;
+    height:30px;
 }
 .dark-mode img {
     width:100%;
@@ -439,12 +439,13 @@ footer a:hover {
 
     header {
         font-size:20px;
+        padding-bottom:25px;
     }
     header h1 {
-        margin-top:10px;
+        margin-top:25px;
     }
     .banner {
-        height: calc(100vh - 90px);
+        height: calc(100vh - 120px);
     }
 
     .container-right,
