@@ -66,7 +66,7 @@ window.onload = function() {
         }
     } */
 
-    var modal = document.querySelector(".modal");
+    /* var modal = document.querySelector(".modal");
     var openModal = document.querySelector(".picture");
     openModal.onclick = function() {
         modal.style.display = "block";
@@ -75,6 +75,6 @@ window.onload = function() {
         if (event.target == modal) {
           modal.style.display = "none";
         }
-    }
+    } */
 }
 
